@@ -2,16 +2,8 @@ const { getBanks, getBank } = require("../index");
 const fs = require("fs");
 const chai = require("chai");
 const assert = chai.assert;
+let {banks} = require("../data");
 describe("rwbanks", () => {
-  let banks = [];
-
-  before(function(done) {
-    banks = JSON.parse(
-      fs.readFileSync(process.cwd() + '/data/banks.json', 'utf8')
-    );
-    done();
-  });
-
   it('should get a list of banks', function(done) {
     assert.deepEqual(getBanks(), banks);
     done();

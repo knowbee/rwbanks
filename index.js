@@ -1,11 +1,7 @@
 const fs = require("fs");
-let banks = [];
+const { banks } = require("./data");
 let error = null;
-try {
-  banks = JSON.parse(fs.readFileSync("./data/banks.json", "utf-8"));
-} catch (e) {
-  error = e;
-}
+
 /**
  * getBanks: find a list of licensed banks
  * @param {function} [callback]
