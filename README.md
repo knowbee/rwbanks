@@ -1,4 +1,4 @@
-# rwbanks
+# rw-banks
 [![Build Status](https://travis-ci.com/knowbee/rwbanks.svg?token=yN9jXnk59suszMqNsJJb&branch=master)](https://travis-ci.com/knowbee/rwbanks)
 [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=102)](https://github.com/ellerbrock/open-source-badge/)
 [![Open Source Love](https://badges.frapsoft.com/os/mit/mit.svg?v=102)](https://github.com/ellerbrock/open-source-badge/)
@@ -8,26 +8,26 @@ A lightweight npm package that can be used to get list of licensed banks from Rw
 ## Installation
 
 ```
-yarn add rwbanks
+yarn add rw-banks
 ```
 
 or
 
 ```
-npm i rwbanks --save
+npm i rw-banks --save
 ```
 
 or
 
 ## Usage
 ```js
-const { getBanks, getBank } = require("rwbanks");
+const { getBanks, getBank } = require("rw-banks");
 ```
 
 ## Examples
 
 ```js
-const { getBanks, getBank } = require("rwbanks");
+const { getBanks, getBank } = require("rw-banks");
 
 const banks = getBanks(); // array of licensed banks
 getBanks((error, banks) => {

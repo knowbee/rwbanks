@@ -1,4 +1,3 @@
-const fs = require("fs");
 const { banks } = require("./data");
 let error = null;
 
