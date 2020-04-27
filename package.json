@@ -1,0 +1,24 @@
+{
+  "name": "rwbanks",
+  "version": "0.0.1",
+  "main": "index.js",
+  "author": "Igwaneza Bruce <knowbeeinc@gmail.com>",
+  "license": "MIT",
+  "description": "Get a list of banks from Rwanda and corresponding informations (swift code, contact info, ussd code and bank code).",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/knowbee/rwbanks.git"
+  },
+  "keywords": [
+    "banks",
+    "rwanda",
+    "banki"
+  ],
+  "bugs": {
+    "url": "https://github.com/knowbee/rwbanks/issues"
+  },
+  "homepage": "https://github.com/knowbee/rwbanks#readme"
+}
