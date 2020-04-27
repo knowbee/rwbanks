@@ -55,4 +55,8 @@ describe("rwbanks", () => {
     });
     done();
   });
+  it('should return undefined with false swift code', function(done) {
+    assert.deepEqual(getBank('554'), undefined);
+    done();
+  });
 });
