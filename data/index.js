@@ -22,7 +22,7 @@ exports.banks = [
     "ussd_code": "*334#"
   },
   {
-    "name": "ACCESS BANK (RWANDA) PLC",
+    "name": "ACCESS BANK RWANDA PLC",
     "swift_code": "BKORRWRW",
     "bank_code": "BKOR",
     "address": "UTC, 3rd Floor, KN 4 Ave, Kigali, Rwanda",
