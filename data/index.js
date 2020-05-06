@@ -1,5 +1,4 @@
-exports.banks = [
-  {
+exports.banks = [{
     name: "AB BANK RWANDA LTD",
     swift_code: "ABBRRWRW",
     bank_code: "ABBR",
@@ -174,5 +173,16 @@ exports.banks = [
     toll_free: null,
     email_address: null,
     ussd_code: null,
+  },
+  {
+    name: "ZIGAMA CSS",
+    swift_code: null,
+    bank_code: null,
+    address: "KG 178 St, Kigali, Rwanda",
+    postal_code: null,
+    phone_number: "+250788305726",
+    toll_free: "5005",
+    email_address: "info@zigamacss.rw",
+    ussd_code: "*182#",
   },
 ];
